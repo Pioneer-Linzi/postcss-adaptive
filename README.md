@@ -2,10 +2,13 @@
 ```
   npm install --save-dev postcss-adaptive-exclude
 ```
-新增参数 exclude , 直接在配置 option 时传入即可
+新增参数 exclude , 直接在配置 option 时传入即可,支持正则
 
 ```
-  { remUnit: 75 ,exclud:''}
+  { 
+    remUnit: 75 ,
+    exclude: /node_modules|folder_name/i
+  }
 ```
 
 
