@@ -1,3 +1,14 @@
+# 在原有的基础上加入排除某个文件，or 文件夹
+```
+  npm install --save-dev postcss-adaptive-exclude
+```
+新增参数 exclude , 直接在配置 option 时传入即可
+
+```
+  { remUnit: 75 ,exclud:''}
+```
+
+
 # postcss-adaptive
 
 A [postcss](https://www.npmjs.com/package/postcss) plugin that calculates and generates adaptive css code, such as `rem` and `0.5px borders for retina devices`.
